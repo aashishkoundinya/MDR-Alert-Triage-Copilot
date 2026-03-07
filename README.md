@@ -1,3 +1,24 @@
+# Run on Cloud
+
+```bash
+nssm start MDRBackend
+nssm start MDRCaddy
+nssm start MDRLogGenerator
+```
+
+Stop services
+```bash
+nssm stop MDRBackend
+nssm stop MDRCaddy
+nssm stop MDRLogGenerator
+```
+
+```bash
+psql -U postgres -d socdb -c "TRUNCATE TABLE alerts;"
+```
+
+# Run Locally
+
 Terminal 1:
 ```bash
 cd backend
