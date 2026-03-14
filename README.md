@@ -1,4 +1,4 @@
-# 🛡️ KPMG MDR — SOC Alert Triage Copilot
+# 🛡️ MDR Alert Triage Copilot
 
 > An AI-powered Security Operations Centre dashboard for Managed Detection & Response L1 analysts. Simulates realistic attack scenarios, ships logs to Wazuh SIEM, triages every alert with Claude AI, and enables one-click L2 escalation via Slack.
 
